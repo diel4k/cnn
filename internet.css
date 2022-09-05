@@ -1,0 +1,40 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    display : flex;
+    justify-content: space-between;
+    background: rgb(15, 199, 61);
+}
+.logo{
+    display : flex;
+    width: 70px;
+    height: 70px;
+}
+ul{
+    display : flex;
+    gap: 20px;
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content:end;
+}
+div{
+    display: flex;
+    justify-content: start;
+    gap: 10px
+}
+.login{
+    width: 20px;
+    height: 20px;
+}
+
+.tik{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}
